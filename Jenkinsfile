@@ -1,8 +1,8 @@
 pipeline {
     agent { label 'Jenkins agent' }
     tools {
-        jdk 'Java'
-        maven 'Maven'
+        jdk "Java"
+        maven "Maven"
     }
     environment {
 	    APP_NAME = "register-app-pipeline"
